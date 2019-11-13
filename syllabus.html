@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Talis Biomedical Statistics Course</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+  <!-- Google fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<div id="header">
+  <a href="http://www.thetahat.ai/">
+    <img src="img/thetahatlogo.png" style="height:33px; float: left; margin-left: 20px;">
+  </a>
+  <a href="https://talis.bio//">
+    <img src="img/talislogo.png" style="height:50px; float: right; margin-right: 20px;">
+  </a>
+  <h1><a href="https://talisstats.github.io/" style="color: black">Introductory Statistics</a></h1>
+  <div class='text-center'>
+    <h4>November 2019</h4>
+  </div>
+  <hr/>
+</div>
+
+<div class="container sec" style="margin-top: 1em">
+  <h2>Detailed Syllabus</h2>
+  <p>
+    This syllabus is regularly updated with material as it is created for the
+    course.
+  </p>
+<!--   <p>
+    Current quarter's videos are available through <a href="http://scpd.stanford.edu/search/publicCourseSearchDetails.do?method=load&courseId=87700676">SCPD</a>.<br>
+    Course notes are published <a href="https://deepgenerativemodels.github.io/notes/index.html">here</a>.
+  </p>
+ -->
+</div>
+
+<div style="text-align:center; padding:10px 0px 20px 0px;">
+    <a href="syllabus.html" style="margin-right:50px">
+      <button type="button" class="btn btn-danger btn-lg">Syllabus</button>
+    </a>
+<!--     <a href="reference.html" style="margin-right:50px">
+      <button type="button" class="btn btn-primary btn-lg">References</button>
+    </a>
+ -->
+    <a href="https://piazza.com/class/k29c6dc3tez6en" style="margin-right:50px">
+      <button type="button" class="btn btn-warning btn-lg">Piazza</button>
+    </a>
+    <a href="https://www.gradescope.com/courses/71747" style="margin-right:50px">
+      <button type="button" class="btn btn-success btn-lg">Gradescope</button>
+    </a></div>
+</div>
+
+
+<div class="container">
+<table id="schedule" class="table table-bordered no-more-tables">
+  <thead class="active" style="background-color:#f9f9f9">
+    <th>Week</th><th>Date</th><th>Lecture Topics</th><th>Coursework</th>
+  </thead>
+
+  <tbody>
+  <tr>
+    <td>1</td>
+    <td align="left"> 2019 Nov 14</td>
+    <td align="center">
+      Introduction and Background (<a href="assets/slides/cs236_lecture1_2019.pptx">slides 1</a>)
+    </td>
+    <td align="center"></td>
+  </tr>
+<!--   <tr>
+    <td>2</td>
+    <td> Sep 30 </td>
+    <td align="center">
+      Autoregressive Models <br> (<a href="assets/slides/cs236_lecture3.pdf">slides 3</a>, <a href="assets/slides/cs236_lecture4.pdf">slides 4</a>)
+    </td>
+    <td align="center">
+      <a href="https://piazza.com/class/k0dkqgznr3b66u?cid=43">HW 1</a> released
+    </td>
+    <td align="right">PyTorch</td>
+  </tr>
+  <tr>
+      <td>3</td>
+      <td> Oct 7 </td>
+      <td align="center">
+          Variational Autoencoders (<a href="assets/slides/cs236_lecture5.pdf">slides 5</a>, <a href="assets/slides/cs236_lecture6.pdf">slides 6</a>)
+      </td>
+      <td align="center"></td>
+      <td align="right">CNNs, RNNs, Transformers</td>
+    </tr>
+  <tr>
+    <td>4</td>
+    <td> Oct 14 </td>
+    <td align="center">
+        Normalizing Flow Models (<a href="assets/slides/cs236_lecture7.pdf">slides 7</a>, <a href="assets/slides/cs236_lecture8.pdf">slides 8</a>)
+    </td>
+    <td align="center">
+        HW1 due (10/15), <a href="https://piazza.com/class/k0dkqgznr3b66u?cid=219">HW 2</a> released
+    </td>
+    <td align="right"></td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td> Oct 21 </td>
+    <td align="center">
+      Generative Adversarial Networks (<a href="assets/slides/cs236_lecture9.pdf">slides 9</a>, <a href="assets/slides/cs236_lecture10.pdf">slides 10</a>)
+    </td>
+    <td align="center">
+    </td>
+    <td align="right"></td>
+  </tr>
+  <tr style="text-align:center; vertical-align:middle;background-color:#FFF2F2">
+      <td align="left"></td>
+      <td align="left"></td>
+      <td colspan="3" style="text-align:center; vertical-align:middle;">
+        Project Proposal: Due Monday, October 21, 2019.
+      </td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td> Oct 28 </td>
+    <td align="center">
+      Energy-based Models (<a href="assets/slides/cs236_lecture11.pdf">slides 11</a>)
+      <br> Guest Lecture (Yang Song): Gradient Estimation for Generative Modeling (<a href="assets/slides/score.mp4">slides</a>)
+    </td>
+    <td align="center">
+      HW 2 due (10/29)
+    </td>
+    <td align="right"></td>
+  </tr>
+  <tr>
+  <td>7</td>
+  <td> Nov 4 </td>
+  <td align="center">
+      Combining Generative Model Variants (<a href="assets/slides/cs236_lecture12.pdf">slides 12</a>)
+  </td>
+  <td align="center">
+  </td>
+  <td align="right"></td>
+</tr>
+<tr style="text-align:center; vertical-align:middle;background-color:#FFF2F2">
+    <td align="left"></td>
+    <td align="left"></td>
+    <td colspan="3" style="text-align:center; vertical-align:middle;">
+      Midterm: <b>Day</b>: November 4, 2019 - <b>Time</b>: 6:00 PM to 9:00 PM - <b>Location</b>: TBA.
+    </td>
+</tr>
+<tr>
+    <td>8</td>
+    <td> Nov 11 </td>
+    <td align="center">
+      Evaluation of Generative Models (<a href="assets/slides/cs236_lecture13.pdf">slides 13</a>)
+    </td>
+    <td align="center">
+        Project Progress Report due (11/18), HW 3 released
+    </td>
+    <td align="right"></td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td> Nov 18 </td>
+    <td align="center">
+      Discreteness in Latent Variable Modeling,
+        Applications: Vision, Speech, Language, Graphs, Reinforcement learning
+    </td>
+    <td align="center">
+    </td>
+    <td align="right"></td>
+
+    <tr>
+        <td>10</td>
+        <td> Nov 25 </td>
+        <td align="center">
+            Thanksgiving Break
+        </td>
+        <td align="center">
+        </td>
+        <td align="right"></td>
+      </tr>
+      <tr>
+          <td>11</td>
+          <td> Dec 2  </td>
+          <td align="center">
+              Generative Adversarial Imitation Learning
+          </td>
+          <td align="center">
+              HW 3 due
+          </td>
+          <td align="right"></td>
+        </tr>
+            <tr style="text-align:center; vertical-align:middle;background-color:#FFF2F2">
+        <td align="left"></td>
+        <td align="left"></td>
+        <td colspan="3" style="text-align:center; vertical-align:middle;">
+          Poster Presentation: <b>Day</b>: December 6, 2019 - <b>Time</b>: 10:00 AM to 4:00 PM - <b>Location</b>: McCaw Hall @ Arrillaga.
+        </td>
+    </tr>
+        <tr>
+            <td>12</td>
+            <td> Dec 9  </td>
+            <td align="center">
+                Finals Week
+            </td>
+            <td align="center">
+            </td>
+            <td align="right"></td>
+          </tr>
+            </tr>
+
+          <tr style="text-align:center; vertical-align:middle;background-color:#FFF2F2">
+              <td align="left"></td>
+              <td align="left"></td>
+              <td colspan="3" style="text-align:center; vertical-align:middle;">
+                Final Project Reports
+              </td>
+          </tr> -->
+</tbody></table>
+</div>
+
+<hr/>
+<div class="container sec">
+  <h2>Additional Reading: Surveys and Tutorials</h2>
+  <br>
+  <ol>
+<!--       <li><a href="https://ermongroup.github.io/generative-models/">Tutorial on Deep Generative Models.</a> Aditya Grover and Stefano Ermon. International Joint Conference on Artificial Intelligence, July 2018.</li>
+      <li><a href="https://sites.google.com/view/cvpr2018tutorialongans/">Tutorial on Generative Adversarial Networks.</a> Computer Vision and Pattern Recognition, June 2018.</li>
+      <li><a href="https://www.youtube.com/watch?v=JrO5fSskISY">Tutorial on Deep Generative Models.</a> Shakir Mohamed and Danilo Rezende. Uncertainty in Artificial Intelligence, July 2017.</li>
+      <li><a href="https://www.youtube.com/watch?v=AJVyzd0rqdc">Tutorial on Generative Adversarial Networks.</a> Ian Goodfellow. Neural Information Processing Systems, December 2016.</li>
+      <li><a href="https://www.cs.cmu.edu/~rsalakhu/papers/annrev.pdf">Learning deep generative models.</a> Ruslan Salakhutdinov. Annual Review of Statistics and Its Application, April 2015.</li> -->
+    </ol>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body></html>
